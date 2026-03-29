@@ -34,7 +34,7 @@ az ad signed-in-user show --query userPrincipalName
 
 📸 Evidence:
 
-![Tenant Context](images/Screenshot 2026-03-29 at 18.41.21.png)
+<img width="742" height="369" alt="Screenshot 2026-03-29 at 18 41 21" src="https://github.com/user-attachments/assets/26e34382-c861-4063-922a-f542e1809e84" />
 
 ---
 
@@ -46,7 +46,7 @@ az ad user show --id lab-user1@satonthathotmailco.onmicrosoft.com
 
 📸 Evidence:
 
-![User Details](images/Screenshot 2026-03-29 at 19.35.07.png)
+<img width="785" height="392" alt="Screenshot 2026-03-29 at 19 35 07" src="https://github.com/user-attachments/assets/4e8ef249-9745-48d6-ad25-403cd07a4479" />
 
 ---
 
@@ -58,7 +58,7 @@ az ad group show --group lab-group
 
 📸 Evidence:
 
-![Group](images/Screenshot 2026-03-29 at 19.49.03.png)
+<img width="633" height="717" alt="Screenshot 2026-03-29 at 19 49 03" src="https://github.com/user-attachments/assets/f5546ffe-ac70-404c-ba48-85198224d7b5" />
 
 ---
 
@@ -70,7 +70,7 @@ az ad group member list --group lab-group
 
 📸 Evidence:
 
-![Members](images/Screenshot 2026-03-29 at 19.51.17.png)
+<img width="625" height="364" alt="Screenshot 2026-03-29 at 19 51 17" src="https://github.com/user-attachments/assets/2d038104-741a-440c-8477-44e46c563fb8" />
 
 ---
 
@@ -82,7 +82,7 @@ az group show --name rg-lab-f1
 
 📸 Evidence:
 
-![Resource Group](images/Screenshot 2026-03-29 at 20.01.12.png)
+<img width="629" height="374" alt="Screenshot 2026-03-29 at 20 01 12" src="https://github.com/user-attachments/assets/22259c9a-f221-4301-8e4f-c01bc295574b" />
 
 ---
 
@@ -94,7 +94,8 @@ az role assignment list --scope $(az group show --name rg-lab-f1 --query id -o t
 
 📸 Evidence:
 
-![RBAC](images/Screenshot 2026-03-29 at 20.05.02.png)
+<img width="626" height="347" alt="Screenshot 2026-03-29 at 20 05 02" src="https://github.com/user-attachments/assets/4d55c28f-ec53-4996-9f77-0879657bd3db" />
+02.png)
 
 ---
 
@@ -107,7 +108,7 @@ az ad group member add --group lab-group --member-id <user-id>
 
 📸 Evidence:
 
-![Break Fix](images/Screenshot 2026-03-29 at 20.09.43.png)
+<img width="790" height="515" alt="Screenshot 2026-03-29 at 20 09 43" src="https://github.com/user-attachments/assets/d808919a-a3c1-45c1-8a72-56a5d2d8728c" />
 
 ---
 
